@@ -3,18 +3,23 @@ package com.knight;
 public class Main {
 
     /**
-     * Este atributo pertence a qualquer objeto que seja criado a partir dessa classe
+     * Este atributo não pertece mais a instancia (objeto), pertence a classe
      */
-    String nome = "Bruce";
+    static String nome = "Bruce";
     public static void main(String[] args) {
-        Main main = new Main(); // objeto criado a partir da classe teste
-        main.ola();
+
+        /*
+          Agora é possivel acessar os metodos e variaveis sem instanciar um objeto da classe
+          pois agora estão em contexto estatico.
+         */
+        System.out.println(nome);
+        ola();
     }
 
     /**
-     * Este metodo pertence a qualquer objeto que seja criado a partir dessa classe
+     * Este metodo não pertece mais a instancia (objeto), pertence a classe
      */
-    void ola(){
+    static void ola(){
         System.out.println("Olá "+nome);
     }
 }
