@@ -2,24 +2,17 @@ package com.knight;
 
 public class Main {
 
-    /**
-     * Este atributo não pertece mais a instancia (objeto), pertence a classe
-     */
-    static String nome = "Bruce";
+
     public static void main(String[] args) {
+        Carro carro1 = new Carro();
+        Carro carro2 = new Carro();
+        carro2.cor = "amarelo";
 
-        /*
-          Agora é possivel acessar os metodos e variaveis sem instanciar um objeto da classe
-          pois agora estão em contexto estatico.
-         */
-        System.out.println(nome);
-        ola();
+        System.out.println(carro1.definicao);
+        System.out.println(carro1.cor);
+        System.out.println(carro2.definicao);
+        System.out.println(carro2.cor);
+
     }
 
-    /**
-     * Este metodo não pertece mais a instancia (objeto), pertence a classe
-     */
-    static void ola(){
-        System.out.println("Olá "+nome);
-    }
 }
