@@ -1,6 +1,11 @@
+# Requisitos
+
+java 17
+maven
+
 # Para Entender melhor os exemplos navegue pelos commits 
 
-# Tutorial: Como Navegar Pelos Commits no Git
+## Tutorial: Como Navegar Pelos Commits no Git
 
 Este tutorial irá guiá-lo sobre como visualizar e navegar pelos commits em um repositório Git. Os commits são como "pontos de salvamento" no histórico do código, permitindo que você acompanhe as alterações feitas no projeto.
 
