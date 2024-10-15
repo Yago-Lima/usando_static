@@ -8,9 +8,13 @@ public class Main {
         Carro carro2 = new Carro();
         carro2.cor = "amarelo";
 
-        System.out.println(carro1.definicao);
+        /*
+        * Agora por definição ser static, devemos
+        * acessar o atributo invocando sua classe.
+        * */
+        System.out.println(Carro.definicao);
         System.out.println(carro1.cor);
-        System.out.println(carro2.definicao);
+        System.out.println(Carro.definicao);
         System.out.println(carro2.cor);
 
     }
