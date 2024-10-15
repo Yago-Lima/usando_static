@@ -1,3 +1,4 @@
+# Para Entender melhor os exemplos navegue pelos commits 
 
 # Tutorial: Como Navegar Pelos Commits no Git
 
